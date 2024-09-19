@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "915367099545",
+    "project_id": "savory-food",
+    "storage_bucket": "savory-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915367099545:android:64315c12e46f37ed6f4c08",
+        "android_client_info": {
+          "package_name": "com.android.adminsavoryfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBiMiFvuEffDTGaZFzZGy6s8R_1XDiUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915367099545:android:fb1331a881d28e776f4c08",
+        "android_client_info": {
+          "package_name": "com.android.myid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBiMiFvuEffDTGaZFzZGy6s8R_1XDiUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915367099545:android:1560a83b8bbb55ae6f4c08",
+        "android_client_info": {
+          "package_name": "com.android.savoryfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBiMiFvuEffDTGaZFzZGy6s8R_1XDiUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

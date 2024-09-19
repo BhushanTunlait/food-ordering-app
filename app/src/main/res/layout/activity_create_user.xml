@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".CreateUserActivity">
+
+  <ImageView
+      android:id="@+id/backbtn"
+      android:layout_width="36dp"
+      android:layout_height="36dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="16dp"
+      android:src="@drawable/arrow_left"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/pacifico"
+      android:text="Create New User Admin"
+      android:textColor="@color/textColor"
+      android:textSize="21sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="@+id/textView2"
+      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintStart_toStartOf="@+id/textView2"
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+      tools:ignore="HardcodedText" />
+
+  <ImageView
+      android:id="@+id/imgView"
+      android:layout_width="122dp"
+      android:layout_height="99dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="68dp"
+      android:adjustViewBounds="true"
+      android:gravity="center"
+      android:importantForAccessibility="no"
+      android:src="@drawable/logo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="332dp"
+      android:layout_height="75dp"
+      android:fontFamily="@font/pacifico"
+      android:text=" Savory Food "
+      android:textAlignment="center"
+      android:textColor="@color/cardview_dark_background"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/textView"
+      app:layout_constraintEnd_toEndOf="@+id/imgView"
+      app:layout_constraintStart_toStartOf="@+id/imgView"
+      app:layout_constraintTop_toBottomOf="@+id/imgView"
+      tools:ignore="HardcodedText" />
+
+  <EditText
+      android:id="@+id/editTxtEmailAddress"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="32dp"
+      android:autofillHints=""
+      android:background="@drawable/edittextshape"
+      android:drawableStart="@drawable/mail"
+      android:drawablePadding="15dp"
+      android:elevation="5dp"
+      android:ems="10"
+      android:fontFamily="@font/pacifico"
+      android:hint="@string/email"
+      android:inputType="textEmailAddress"
+      android:paddingStart="10dp"
+      app:layout_constraintEnd_toEndOf="@+id/editTextName"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="@+id/editTextName"
+      app:layout_constraintTop_toBottomOf="@+id/editTextName"
+      tools:ignore="MissingConstraints,RtlSymmetry" />
+
+  <EditText
+      android:id="@+id/editTxtPassword"
+      android:layout_width="324dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="32dp"
+      android:autofillHints=""
+      android:background="@drawable/edittextshape"
+      android:drawableStart="@drawable/lock"
+      android:drawablePadding="15dp"
+      android:elevation="5dp"
+      android:ems="10"
+      android:fontFamily="@font/pacifico"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:paddingStart="10dp"
+      app:layout_constraintEnd_toEndOf="@+id/editTxtEmailAddress"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/editTxtEmailAddress"
+      app:layout_constraintTop_toBottomOf="@+id/editTxtEmailAddress"
+      tools:ignore="MissingConstraints,RtlHardcoded,RtlSymmetry" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/CreatAccountbtn"
+      android:layout_width="193dp"
+      android:layout_height="59dp"
+      android:background="@drawable/greenbuttongradient"
+      android:elevation="5dp"
+      android:layout_marginTop="32dp"
+      android:fontFamily="@font/pacifico"
+      android:text="Creat Account"
+      android:textColor="@color/white"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTxtPassword"
+      tools:ignore="HardcodedText,MissingConstraints" />
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="221dp"
+      android:layout_height="41dp"
+      android:layout_marginBottom="12dp"
+      android:fontFamily="@font/pacifico"
+      android:text="Design By BST"
+      android:textAlignment="center"
+      android:textColor="@color/textColor"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/CreatAccountbtn"
+      app:layout_constraintStart_toStartOf="@+id/CreatAccountbtn"
+      tools:ignore="HardcodedText,SpUsage" />
+
+  <EditText
+      android:id="@+id/editTextName"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="48dp"
+      android:autofillHints=""
+      android:background="@drawable/edittextshape"
+      android:drawableStart="@drawable/usernew"
+      android:drawablePadding="15dp"
+      android:elevation="5dp"
+      android:ems="10"
+      android:fontFamily="@font/pacifico"
+      android:hint="Name"
+      android:inputType="text"
+      android:paddingStart="10dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.505"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView"
+      tools:ignore="HardcodedText,MissingConstraints,RtlSymmetry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
